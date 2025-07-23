@@ -1,5 +1,14 @@
+<script>
+  const cacheVersion = "v1"; // Change this every time you update
+  const currentUrl = window.location.href;
+
+  if (!currentUrl.includes(`?${cacheVersion}`)) {
+    window.location.replace(`${window.location.pathname}?${cacheVersion}`);
+  }
+</script>
+
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
