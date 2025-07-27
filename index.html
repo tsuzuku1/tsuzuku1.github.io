@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tsuzuku</title>
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="image/favicon/favicon.ico">
+
     <!-- SWIPER -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
@@ -53,8 +56,6 @@
 
         <div class="image-slider">
             <img src="image/home-img-1.png" alt="">
-            <img src="image/home-img-2.png" alt="">
-            <img src="image/home-img-3.png" alt="">
         </div>
     </section>
 
@@ -75,15 +76,15 @@ Our new formula is designed for those who prioritize health without compromising
                 <a href="https://tsuzuku1.github.io/blog/posts/introducing-tsuzuku/" class="btn">read more</a>
                 <div class="icons-container">
                     <div class="icons">
-                        <img src="image/icons/small-icon (2).png" alt="">
+                        <img src="image/Icons/small-icon (2).png" alt="">
                         <h3>Quality Coffee Alternative</h3>
                     </div>
                     <div class="icons">
-                        <img src="image/icons/small-icon (3).png" alt="">
+                        <img src="image/Icons/small-icon (3).png" alt="">
                         <h3>Health Benefits</h3>
                     </div>
                     <div class="icons">
-                        <img src="image/icons/small-icon (1).png" alt="">
+                        <img src="image/Icons/small-icon (1).png" alt="">
                         <h3>Tasty & Nutritious</h3>
                     </div>
                 </div>
@@ -96,80 +97,6 @@ Our new formula is designed for those who prioritize health without compromising
         <h1 class="heading">our menu <span> signature</span></h1>
         <div style="text-align:center; margin: 2em 0;">
             <a href="menu/TsuzukuMenu.pdf" class="btn" target="_blank">View Full Menu</a>
-        </div>
-    </section>
-
-    <!-- REVIEW -->
-    <section class="review" id="review">
-        <h1 class="heading">reviews <span>what people says</span></h1>
-
-        <div class="swiper review-slider">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide box">
-                    <i class="fas fa-quote-left"></i>
-                    <i class="fas fa-quote-right"></i>
-                    <img src="image/pic.png" alt="">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p>Be one of the first to share your experience! The first 5 people to leave a 5-star review will be featured on our website.</p>
-                    <h3>Your Name Here</h3>
-                    <span>satisfied client</span>
-                </div>
-
-                <div class="swiper-slide box">
-                    <i class="fas fa-quote-left"></i>
-                    <i class="fas fa-quote-right"></i>
-                    <img src="image/pic.png" alt="">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p>Be one of the first to share your experience! The first 5 people to leave a 5-star review will be featured on our website.</p>
-                    <h3>Your Name Here</h3>
-                    <span>satisfied client</span>
-                </div>
-
-                <div class="swiper-slide box">
-                    <i class="fas fa-quote-left"></i>
-                    <i class="fas fa-quote-right"></i>
-                    <img src="image/pic.png" alt="">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p>Be one of the first to share your experience! The first 5 people to leave a 5-star review will be featured on our website.</p>
-                    <h3>Your Name Here</h3>
-                    <span>satisfied client</span>
-                </div>
-
-                <div class="swiper-slide box">
-                    <i class="fas fa-quote-left"></i>
-                    <i class="fas fa-quote-right"></i>
-                    <img src="image/pic.png" alt="">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p>Be one of the first to share your experience! The first 5 people to leave a 5-star review will be featured on our website.</p>
-                    <h3>Your Name Here</h3>
-                    <span>satisfied client</span>
-                </div>
-            </div>
-            <div class="swiper-pagination"></div>
         </div>
     </section>
 
@@ -238,6 +165,47 @@ Our new formula is designed for those who prioritize health without compromising
     <!-- Custom JS File Link  -->
     <script src="js/script.js"></script>
 
+    <script>
+    // --- New Version Notification Script ---
+    (function() {
+        // Create notification popup (hidden by default)
+        var banner = document.createElement('div');
+        banner.textContent = 'A new version of this site is available. Click here to refresh.';
+        banner.style.position = 'fixed';
+        banner.style.top = '50%';
+        banner.style.left = '50%';
+        banner.style.transform = 'translate(-50%, -50%)';
+        banner.style.background = '#222';
+        banner.style.color = '#fff';
+        banner.style.padding = '2em 2.5em';
+        banner.style.textAlign = 'center';
+        banner.style.cursor = 'pointer';
+        banner.style.zIndex = '9999';
+        banner.style.display = 'none';
+        banner.style.borderRadius = '1em';
+        banner.style.boxShadow = '0 4px 32px rgba(0,0,0,0.25)';
+        banner.style.fontSize = '1.7rem';
+        banner.onclick = function() { location.reload(true); };
+        document.body.appendChild(banner);
+
+        // Get current page ETag or Last-Modified
+        var lastVersion = localStorage.getItem('site_version');
+        function checkForUpdate() {
+            fetch(window.location.href, { method: 'HEAD', cache: 'no-store' })
+                .then(function(response) {
+                    var newVersion = response.headers.get('ETag') || response.headers.get('Last-Modified');
+                    if (lastVersion && newVersion && lastVersion !== newVersion) {
+                        banner.style.display = 'block';
+                    }
+                    localStorage.setItem('site_version', newVersion);
+                });
+        }
+        // Check every 60 seconds
+        setInterval(checkForUpdate, 60000);
+        // Also check on page load
+        checkForUpdate();
+    })();
+    </script>
 </body>
 
 </html>

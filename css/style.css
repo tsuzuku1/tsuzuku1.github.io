@@ -385,9 +385,7 @@ section {
 /* BOOK */
 
 .book {
-    background: url(../image/book-bg.jpg);
-    background-position: center;
-    background-size: cover;
+    background: #fff !important;
 }
 
 .book form {
