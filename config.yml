@@ -19,7 +19,7 @@ google_analytics_id:
 title: "TSUZUKU — Japanese Experience"
 
 # Avatar image path
-avatar: "/assets/logo.png"
+avatar: "https://avatars.githubusercontent.com/u/216198436"
 
 # Name section text
 name: "@TSUZUKU"
@@ -36,13 +36,6 @@ tagline: >-
 # alt: Alternative text for accessibility
 # target: `_blank` opens in a new tab, `_self` opens in the same frame
 links:
-  - link:
-      icon: "fa-solid fa-globe"
-      text: "Website"
-      url: "https://www.tsuzuku-sa.com"
-      alt: "TSUZUKU official website"
-      title: "TSUZUKU official website"
-      target: "_blank"
   - link:
       icon: "fa-solid fa-mug-saucer"
       text: "Menu / Blog"
@@ -72,13 +65,6 @@ links:
       title: "TSUZUKU location on Google Maps"
       target: "_blank"
   - link:
-      icon: "fa-brands fa-youtube"
-      text: "YouTube"
-      url: "https://www.youtube.com/@TsuzukuSA"
-      alt: "TSUZUKU YouTube channel"
-      title: "TSUZUKU YouTube channel"
-      target: "_blank"
-  - link:
       icon: "fa-brands fa-instagram"
       text: "Instagram"
       url: "https://www.instagram.com/tsuzuku.sa/"
@@ -91,13 +77,6 @@ links:
       url: "https://www.tiktok.com/@tsuzuku_sa"
       alt: "TSUZUKU on TikTok"
       title: "TSUZUKU on TikTok"
-      target: "_blank"
-  - link:
-      icon: "fa-brands fa-x-twitter"
-      text: "X (Twitter)"
-      url: "https://x.com/Tsuzuku_SA"
-      alt: "TSUZUKU on X (Twitter)"
-      title: "TSUZUKU on X (Twitter)"
       target: "_blank"
   - link:
       icon: "fa-brands fa-snapchat"
@@ -116,58 +95,16 @@ links:
 # target: _blank opens in a new tab, _self opens in the same frame
 socials:
   - social:
-      icon: "fa-brands fa-whatsapp"
-      url: "https://wa.me/966555815489"
-      title: "WhatsApp"
-      alt: "WhatsApp"
-      target: "_blank"
-  - social:
-      icon: "fa-solid fa-phone"
-      url: "tel:+966555815489"
-      title: "Call"
-      alt: "Call"
-      target: "_self"
-  - social:
-      icon: "fa-solid fa-location-dot"
-      url: "https://maps.app.goo.gl/oUgmqNJYah5byHFa7"
-      title: "Google Maps"
-      alt: "Google Maps"
-      target: "_blank"
-  - social:
       icon: "fa-brands fa-youtube"
       url: "https://www.youtube.com/@TsuzukuSA"
       title: "YouTube"
       alt: "YouTube"
       target: "_blank"
   - social:
-      icon: "fa-brands fa-instagram"
-      url: "https://www.instagram.com/tsuzuku.sa/"
-      title: "Instagram"
-      alt: "Instagram"
-      target: "_blank"
-  - social:
-      icon: "fa-brands fa-tiktok"
-      url: "https://www.tiktok.com/@tsuzuku_sa"
-      title: "TikTok"
-      alt: "TikTok"
-      target: "_blank"
-  - social:
       icon: "fa-brands fa-x-twitter"
       url: "https://x.com/Tsuzuku_SA"
       title: "X (Twitter)"
       alt: "X (Twitter)"
-      target: "_blank"
-  - social:
-      icon: "fa-brands fa-snapchat"
-      url: "https://www.snapchat.com/add/tsuzuku.co"
-      title: "Snapchat"
-      alt: "Snapchat"
-      target: "_blank"
-  - social:
-      icon: "fa-solid fa-globe"
-      url: "https://www.tsuzuku-sa.com"
-      title: "Website"
-      alt: "Website"
       target: "_blank"
   - social:
       icon: "fa-solid fa-envelope"
