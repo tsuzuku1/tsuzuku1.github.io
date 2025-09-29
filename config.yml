@@ -45,10 +45,10 @@ links:
       target: "_blank"
   - link:
       icon: "fa-brands fa-whatsapp"
-      text: "Order on WhatsApp — 055 581 5489"
+      text: "WhatsApp — 055 581 5489"
       url: "https://wa.me/966555815489"
-      alt: "WhatsApp order for TSUZUKU"
-      title: "Order on WhatsApp"
+      alt: "WhatsApp for TSUZUKU"
+      title: "WhatsApp"
       target: "_blank"
   - link:
       icon: "fa-solid fa-phone"
