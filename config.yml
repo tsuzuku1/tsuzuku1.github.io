@@ -1,7 +1,7 @@
 # Site Configuration
 
 # Theme, mapped to the directory: ./theme/xxxx
-theme: default
+theme: tsuzuku-nature
 
 # HTML Language setting
 lang: "en"
